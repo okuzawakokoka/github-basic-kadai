@@ -1,0 +1,36 @@
+PS C:\Users\093111_226302> git config --global user.name "奥沢ここか"              
+PS C:\Users\093111_226302> git config --global user.email "okuzawa_kokoka@koushi-intec.co.jp"
+PS C:\Users\093111_226302> git config --global user.name
+奥沢ここか
+PS C:\Users\093111_226302> git config --global user.email
+okuzawa_kokoka@koushi-intec.co.jp
+PS C:\Users\093111_226302> git config init.defaultBranch
+main
+PS C:\Users\093111_226302> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\093111_226302
+
+
+Mode                 LastWriteTime         Length Name                                                                                                          
+----                 -------------         ------ ----                                                                                                          
+d-----        2026/04/24     16:13                git_challenge                                                                                                 
+
+
+PS C:\Users\093111_226302> cd git_challenge
+PS C:\Users\093111_226302\git_challenge> git init
+Initialized empty Git repository in C:/Users/093111_226302/git_challenge/.git/
+PS C:\Users\093111_226302\git_challenge> git add hello_world.txt
+PS C:\Users\093111_226302\git_challenge> git commit -m "hello_world.txtを追加"         
+[main (root-commit) f1bdc44] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\093111_226302\git_challenge> git add hello_world.txt              
+PS C:\Users\093111_226302\git_challenge> git add hello_world.txt              
+PS C:\Users\093111_226302\git_challenge> git commit -m "日本語訳を追記"       
+[main 7d9d0e1] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\093111_226302\git_challenge> git log --oneline
+7d9d0e1 (HEAD -> main) 日本語訳を追記
+f1bdc44 hello_world.txtを追加
+PS C:\Users\093111_226302\git_challenge> 
