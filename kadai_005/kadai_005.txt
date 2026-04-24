@@ -1,0 +1,11 @@
+PS C:\Users\093111_226302\Desktop\git_challenge> git add hello_world.txt                        
+PS C:\Users\093111_226302\Desktop\git_challenge> git commit -m "Hello, world!"                  
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\093111_226302\Desktop\git_challenge> git add hello_world.txt      
+PS C:\Users\093111_226302\Desktop\git_challenge> git commit -m "こんにちは、世界!"              
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\093111_226302\Desktop\git_challenge> git log --oneline
+04a12ff (HEAD -> main) Hello, world!
+PS C:\Users\093111_226302\Desktop\git_challenge> 
